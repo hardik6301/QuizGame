@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+body {
+    background: linear-gradient(1000deg,#8754ff,#8E2DE2);
+    background-size: cover;
+    overflow: hidden;
+  }
+.header{
+  background-color: #333;
+    height: 105px;
+  }
+.mid{
+    position: relative;
+    top: 35px;
+    text-align: center;
+    border: none;
+    color: white;
+    transition: background-color 2s;
+  }
+.navbar li{
+    display: inline;
+    font-size: 25px;
+}
+.navbar li a:hover{
+text-decoration: none;
+color: grey;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    /* padding: 25px; */
+}
+a:-webkit-any-link {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.left{
+    position: absolute ;
+    left: 30px;
+    top: 36px;
+    text-align: end;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: fantasy;
+    transition: background-color 0.5s;
+}
+.right{
+  position: relative;
+  right: -1200px;
+  top: -5px;
+}
+.button:hover{
+  background-color: #ffffff;
+  color: #333;
+}
+.button {
+  text-align: center;
+  position: relative;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.5s;
+}
+a:-webkit-any-link {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.right:hover{
+    color: grey;
+}
+ 
+/* .tick-div{
+    background-color: #e1f5fe;
+    float: left;
+    border-radius: 1.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-position: 50px 30px;
+    object-fit: none;
+    width: 0px;
+    height: 200px;
+    left: 100px;
+    object-position: 100px;
+} */
+
+.thankyou{
+    position: absolute;
+    left: 13%;
+    top: 285px;
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+}
+.container{
+    position: absolute;
+    left: 64%;
+    top: 270px;
+    padding: 60px 80px 85px 65px;
+    text-align: none;
+    color: #fff;
+    border-left:6px solid #fff;
+}
+.footer{
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+  }
