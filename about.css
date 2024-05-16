@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+body {
+    background: linear-gradient(1000deg,#8754ff,#8E2DE2);
+    background-size: cover;
+    overflow: hidden;
+  }
+.header{
+  background-color: #333;
+    height: 105px;
+  }
+.mid{
+    position: relative;
+    top: 35px;
+    text-align: center;
+    border: none;
+    color: white;
+    transition: background-color 2s;
+  }
+.navbar li{
+    display: inline;
+    font-size: 25px;
+}
+.navbar li a:hover{
+text-decoration: none;
+color: grey;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    /* padding: 25px; */
+}
+.left{
+    position: absolute ;
+    left: 30px;
+    top: 36px;
+    text-align: end;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: fantasy;
+    transition: background-color 0.5s;
+}
+.right{
+  position: relative;
+  right: -1200px;
+  top: -5px;
+}
+.button:hover{
+  background-color: #ffffff;
+  color: #333;
+}
+.button {
+  text-align: center;
+  position: relative;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.5s;
+}
+a:-webkit-any-link {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.right:hover{
+    color: grey;
+}
+ 
+
+.container{
+    width: 100%;
+    max-width: 1040px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-left: 2em;
+    margin-top: 3em;    
+}
+.about-hero-tag-text {
+    opacity: .6;
+    color: var(--black);
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Poppins,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+}
+.about-hero-heading{
+    color: var(--sea-blue--green);
+    color: rgb(21, 12, 75);
+    background-image: url(heading.png);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+    font-family: Poppins,sans-serif;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 111%;
+    display: inline;
+    margin-left: 1em;
+}
+.for-work-hero-paragraph {
+    max-width: 700px;
+    color: var(--black);
+    margin-bottom: 0;
+    font-size: 23px;
+    line-height: 150%;
+    float: inline-start;
+    margin-top: 1em;
+    margin-left: 5em;
+    font-family: Poppins,sans-serif;
+    /* font-weight: 500; */
+}
+.about-50{
+    color: var(--black);
+    left: 50%;
+    font-family: Poppins,sans-serif;
+    font-size: 29px;
+    float: inline-start;
+    line-height: 150%;
+    margin-top: 1.5em;
+    margin-left: 3.2em;
+}
+img{
+  position: absolute;
+  left: 63em;
+  top: 17em;
+  width: 25em;
+  height: 19em;
+  border-radius: 15px;
+}
+
+
+.footer{
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+  }
