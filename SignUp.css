@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+body {
+    background: linear-gradient(1000deg,#8754ff,#8E2DE2);
+    background-size: cover;
+    overflow: hidden;
+  }
+.header{
+  background-color: #333;
+    height: 105px;
+  }
+.mid{
+    position: relative;
+    top: 35px;
+    text-align: center;
+    border: none;
+    color: white;
+    transition: background-color 2s;
+  }
+.navbar li{
+    display: inline;
+    font-size: 25px;
+}
+.navbar li a:hover{
+text-decoration: none;
+color: grey;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    /* padding: 25px; */
+}
+.left{
+    position: absolute ;
+    left: 30px;
+    top: 36px;
+    text-align: end;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: fantasy;
+    transition: background-color 0.5s;
+}
+.right{
+  position: relative;
+  right: -1200px;
+  top: -5px;
+}
+.button:hover{
+  background-color: #ffffff;
+  color: #333;
+}
+.button {
+  text-align: center;
+  position: relative;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  transition: background-color 0.5s;
+}
+.right:hover{
+    color: grey;
+}
+a:-webkit-any-link {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+div.register{
+    background-color: rgba(0,0,0,0.5);
+    width:26%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    position: absolute;
+    left: 555px;
+}
+form#register{
+    margin: 40px;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+#Submit-button{
+    width: 200px;
+    padding: 0.3em 1.1em;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: rgba(250,100,0,0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(250,100,0,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+#Submit-button:hover{
+    color: rgba(255,255,255,0.3);
+}
+label,span,h2{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+
+.footer{
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+  }
